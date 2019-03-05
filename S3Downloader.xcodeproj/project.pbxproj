@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16C54D2B21FAEC94003098BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C54D2A21FAEC94003098BF /* AppDelegate.swift */; };
+		16C54D2D21FAEC94003098BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C54D2C21FAEC94003098BF /* ViewController.swift */; };
+		16C54D3021FAEC94003098BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C54D2E21FAEC94003098BF /* Main.storyboard */; };
+		16C54D3221FAEC98003098BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16C54D3121FAEC98003098BF /* Assets.xcassets */; };
+		16C54D3521FAEC99003098BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C54D3321FAEC99003098BF /* LaunchScreen.storyboard */; };
+		16C54D3D21FAECB3003098BF /* S3PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C54D3C21FAECB3003098BF /* S3PhotoManager.swift */; };
+		410A47B96207069EF087AB3D /* Pods_S3Downloader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43DCF51040980A18153FBE8 /* Pods_S3Downloader.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16C54D2721FAEC93003098BF /* S3Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = S3Downloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C54D2A21FAEC94003098BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16C54D2C21FAEC94003098BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16C54D2F21FAEC94003098BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16C54D3121FAEC98003098BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16C54D3421FAEC99003098BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16C54D3621FAEC99003098BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C54D3C21FAECB3003098BF /* S3PhotoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S3PhotoManager.swift; sourceTree = "<group>"; };
+		22DE0DA912FF4B530087251B /* Pods-S3Downloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S3Downloader.release.xcconfig"; path = "Pods/Target Support Files/Pods-S3Downloader/Pods-S3Downloader.release.xcconfig"; sourceTree = "<group>"; };
+		40A30AFF1B85EFF4DB85C921 /* Pods-S3Downloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S3Downloader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-S3Downloader/Pods-S3Downloader.debug.xcconfig"; sourceTree = "<group>"; };
+		A43DCF51040980A18153FBE8 /* Pods_S3Downloader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_S3Downloader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16C54D2421FAEC93003098BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410A47B96207069EF087AB3D /* Pods_S3Downloader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C54D1E21FAEC93003098BF = {
+			isa = PBXGroup;
+			children = (
+				16C54D2921FAEC93003098BF /* S3Downloader */,
+				16C54D2821FAEC93003098BF /* Products */,
+				9165D7378B530B3E41940997 /* Pods */,
+				7E94A109BCF9E21CB226F1EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16C54D2821FAEC93003098BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16C54D2721FAEC93003098BF /* S3Downloader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16C54D2921FAEC93003098BF /* S3Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				16C54D2A21FAEC94003098BF /* AppDelegate.swift */,
+				16C54D2C21FAEC94003098BF /* ViewController.swift */,
+				16C54D3C21FAECB3003098BF /* S3PhotoManager.swift */,
+				16C54D2E21FAEC94003098BF /* Main.storyboard */,
+				16C54D3121FAEC98003098BF /* Assets.xcassets */,
+				16C54D3321FAEC99003098BF /* LaunchScreen.storyboard */,
+				16C54D3621FAEC99003098BF /* Info.plist */,
+			);
+			path = S3Downloader;
+			sourceTree = "<group>";
+		};
+		7E94A109BCF9E21CB226F1EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A43DCF51040980A18153FBE8 /* Pods_S3Downloader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9165D7378B530B3E41940997 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40A30AFF1B85EFF4DB85C921 /* Pods-S3Downloader.debug.xcconfig */,
+				22DE0DA912FF4B530087251B /* Pods-S3Downloader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16C54D2621FAEC93003098BF /* S3Downloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C54D3921FAEC99003098BF /* Build configuration list for PBXNativeTarget "S3Downloader" */;
+			buildPhases = (
+				6B3793A081A4591DECBB1EFF /* [CP] Check Pods Manifest.lock */,
+				16C54D2321FAEC93003098BF /* Sources */,
+				16C54D2421FAEC93003098BF /* Frameworks */,
+				16C54D2521FAEC93003098BF /* Resources */,
+				9CB23AD237F687F6E96CF467 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = S3Downloader;
+			productName = S3Downloader;
+			productReference = 16C54D2721FAEC93003098BF /* S3Downloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16C54D1F21FAEC93003098BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Avantari Technologies";
+				TargetAttributes = {
+					16C54D2621FAEC93003098BF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 16C54D2221FAEC93003098BF /* Build configuration list for PBXProject "S3Downloader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16C54D1E21FAEC93003098BF;
+			productRefGroup = 16C54D2821FAEC93003098BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16C54D2621FAEC93003098BF /* S3Downloader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16C54D2521FAEC93003098BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C54D3521FAEC99003098BF /* LaunchScreen.storyboard in Resources */,
+				16C54D3221FAEC98003098BF /* Assets.xcassets in Resources */,
+				16C54D3021FAEC94003098BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B3793A081A4591DECBB1EFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-S3Downloader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CB23AD237F687F6E96CF467 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-S3Downloader/Pods-S3Downloader-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-S3Downloader/Pods-S3Downloader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16C54D2321FAEC93003098BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C54D3D21FAECB3003098BF /* S3PhotoManager.swift in Sources */,
+				16C54D2D21FAEC94003098BF /* ViewController.swift in Sources */,
+				16C54D2B21FAEC94003098BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16C54D2E21FAEC94003098BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C54D2F21FAEC94003098BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16C54D3321FAEC99003098BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C54D3421FAEC99003098BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16C54D3721FAEC99003098BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16C54D3821FAEC99003098BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16C54D3A21FAEC99003098BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40A30AFF1B85EFF4DB85C921 /* Pods-S3Downloader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3C9BD2TD6;
+				INFOPLIST_FILE = S3Downloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avantari.S3Downloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16C54D3B21FAEC99003098BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22DE0DA912FF4B530087251B /* Pods-S3Downloader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3C9BD2TD6;
+				INFOPLIST_FILE = S3Downloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avantari.S3Downloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16C54D2221FAEC93003098BF /* Build configuration list for PBXProject "S3Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C54D3721FAEC99003098BF /* Debug */,
+				16C54D3821FAEC99003098BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C54D3921FAEC99003098BF /* Build configuration list for PBXNativeTarget "S3Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C54D3A21FAEC99003098BF /* Debug */,
+				16C54D3B21FAEC99003098BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16C54D1F21FAEC93003098BF /* Project object */;
+}
